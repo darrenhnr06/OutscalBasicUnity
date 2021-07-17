@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class KeyController1 : MonoBehaviour
 {
-    public AudioSource audioSource;
-    public ScoreController1 scr;
+    [SerializeField]
+    private AudioSource audioSource;
+    [SerializeField]
+    private ScoreController1 scr;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
