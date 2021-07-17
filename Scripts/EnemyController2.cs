@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class EnemyController2 : MonoBehaviour
 {
-    public Animator animator;
+    [SerializeField]
+    private Animator animator;
     Vector3 vectorpos;
-    public EnemyEnter enemyEnter;
+    private EnemyEnter enemyEnter;
     
 
     private void Awake()
