@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class ButtonController1 : MonoBehaviour
 {
-    public Button button;
+    [Serialized Field] 
+    private Button button;
     private void Awake()
     {
         Debug.Log("Button Clicked");
